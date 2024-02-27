@@ -75,15 +75,17 @@
 
 				<div class="col-md-12">
 					
-					<div class="input-group mb-3">
+					<div class="input-group mb-3" >
 						<span class="input-group-text">อีเมล</span>
-						<input type="text" class="form-control">
+						<input type="text" class="form-control" >
 					</div>
 					<div class="input-group mb-3">
 						<span class="input-group-text">รหัสผ่าน</span>
-						<input type="password" id="password" class="form-control" onInput="checkPass();">
+						<input type="password" id="password" class="form-control" onInput="checkPass();" >
 					</div>
-					
+					<div>
+						<input type="checkbox" name="passwordcheck" id="passwordcheck" > ยืนยันการสมัครเข้าสู่เว็บไซต์
+					</div>
 					
 					<div>
 						<label>ความยากของรหัสผ่าน: </label>
@@ -99,6 +101,7 @@
 		</div>
 	</div>
 </div>
+
 
 <script>
 	function checkPass() {
