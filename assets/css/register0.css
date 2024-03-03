@@ -12,3 +12,38 @@
     border-radius: 5px; 
     transition: 0.5s; 
 }
+.btn-glassbt{
+    background-color: #059669;
+    color: #fff;
+}
+.bg-egg{
+    background-color: #fbf1ec;
+}
+.text-price{
+    color: #079067;
+}
+.text-main{
+    color: #079067;
+}
+.icon-main{
+    color: #079067;
+}
+.btn-sec{
+    background-color: #dd3333;
+    color: #fff;
+}
+.borders1{
+    border-top: 7px solid red;
+    border-left: 7px solid red;
+}
+.borders2{
+    border: 7px solid green;
+}
+.borders3{
+    border-bottom: 7px solid red;
+    border-right: 7px solid red;
+}
+.colorhead{
+    font-size: 70px;
+    color: #24377b;
+}
