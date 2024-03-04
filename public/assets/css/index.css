@@ -93,6 +93,6 @@
     margin: 0 499px;
 }
 .navbar{
-    position: fixed !important;
+    position: fixed i;
     z-index: 99999999999;
 }
