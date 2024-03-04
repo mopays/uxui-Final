@@ -1,7 +1,9 @@
-html,body{
-    background: linear-gradient(#9bc9e6, #f6fafd) no-repeat;
-    width: 100%;
-    height: 100%;
+body{
+    /* background-image: url("../image/background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    background: rgb(116 75 188);
 }
 
 .power-container { 
@@ -63,3 +65,24 @@ html,body{
 .btn-before:hover{
     background-color: #dc262698;
 }
+.card{
+    background-color: #ffffff42;
+    backdrop-filter: blur(40px);
+}
+
+input[type="text"]{
+    background-color: #ffffff00;
+    backdrop-filter: blur(40px);
+    border: none;
+}
+input[type=text]:focus {
+    background-color: #ffffff00;
+    backdrop-filter: blur(40px);
+    border: none;
+}
+.input-group>.form-control, .input-group>.form-floating, .input-group>.form-select{
+    background-color: #ffffff00;
+    backdrop-filter: blur(40px);
+    border: none;
+}
+
