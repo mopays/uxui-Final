@@ -4,7 +4,7 @@ $(document).ready(function(){
   });
 });
 
-
+//10. กฎพาร์กินสัน (Parkinson’s Law)
 Swal.fire({
   title: "ลงทะเบียนด่วน!",
   text: "(เงื่อนไขเป็นไปตามกำหนด)",
@@ -75,3 +75,4 @@ function updateCountdown() {
 // เริ่ม countdown และอัปเดตทุกๆ 1 วินาที
 setInterval(updateCountdown, 1000);
 updateCountdown(); // เรียกใช้ฟังก์ชันเพื่อแสดง countdown ครั้งแรก
+//10. กฎพาร์กินสัน (Parkinson’s Law)
