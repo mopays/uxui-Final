@@ -1,4 +1,10 @@
 body{
+    /* background-image: url("../image/background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: 960px;
+    background: linear-gradient(#250090, #BE0BCE , #F7EAFF ) no-repeat;
     font-family: "Trirong", serif;
 }
 
@@ -24,30 +30,34 @@ body{
     background-color: #fbf1ec;
 }
 .text-price{
-    color: #079067;
+    color: #DC2626;
 }
 .text-main{
-    color: #079067;
+    color: #DC2626;
 }
 .icon-main{
-    color: #079067;
+    color: #000;
 }
 .btn-sec{
     background-color: #dd3333;
     color: #fff;
 }
 .borders1{
-    border-top: 7px solid red;
-    border-left: 7px solid red;
+    border-style: solid;
+    border-width: 10px;
+    border-image: radial-gradient(rgb(132,48,238), rgb(225,172,217)) 1;
 }
 .borders2{
-    border: 7px solid green;
+    border-style: solid;
+    border-width: 10px;
+    border-image: radial-gradient(rgb(255,171,171), rgb(239,59,59)) 1;
 }
 .borders3{
-    border-bottom: 7px solid red;
-    border-right: 7px solid red;
+    border-style: solid;
+    border-width: 10px;
+    border-image: radial-gradient(rgb(132,48,238), rgb(225,172,217)) 1;
 }
 .colorhead{
     font-size: 70px;
-    color: #24377b;
+    color: #fff;
 }
