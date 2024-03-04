@@ -2,7 +2,10 @@ body{
     /* background-image: url("../image/background.jpg") ;
     background-repeat: no-repeat;
     background-size: cover; */
-background: rgb(116 75 188);
+    width: 100%;
+    height: 960px;
+    background: linear-gradient(#250090, #BE0BCE , #F7EAFF ) no-repeat;
+    font-family: "Trirong", serif;
 }
 
 .power-container { 
@@ -48,12 +51,12 @@ background: rgb(116 75 188);
 }
 .register-btn{
         color: white;
-        background-image: linear-gradient(to bottom, #2D0347 100%, #300549 45%);    
+        background-image: linear-gradient(#FECAFF, #5B0D5E);  
 }
 
 .register-btn:hover{
     color: white;
-    background-image: linear-gradient(to bottom, #2d034748 100%, #300549 45%);    
+    background-image: linear-gradient(#5B0D5E,#FECAFF);    
 }
 input[type="text"]{
     background-color: #ffffff00;

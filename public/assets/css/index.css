@@ -2,6 +2,11 @@
 .font_stat{font-size:2.2rem; font-weight:bold;}
 .font_btn{font-size:1.3rem; font-weight:bold;}
 /*15. ฟอน รีสตอร์ฟ เอฟเฟ็กต์(Von Restorff Effect)  */
+
+body{
+    font-family: "Trirong", serif;
+}
+
 .cookie-consent{
     position: fixed;
     bottom: 10px;
