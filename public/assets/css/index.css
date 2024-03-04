@@ -29,3 +29,66 @@
     border: 1px solid green;
     background-color: green;
 }
+
+.button-group {
+    height: 18rem;
+    width: 50rem;
+    background-color: #ffffffa4;
+    padding-top: 11px;
+    border-radius: 5px;
+    position: absolute;
+    top: 25%;
+    left: 3.5%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-yellow {
+    color: #F59E0B;
+}
+
+.text-red {
+    color: red;
+}
+.footer-element{
+    margin: 0 auto;
+}
+.footer-button button{
+    margin-top: 10px;
+}
+.icon-nav{
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    margin-top: -1px;
+    margin-left: 10px;
+    padding-right: 1px;
+}
+.nav-header{
+    justify-content: space-around;
+}
+.bg-nav-contain{
+    background-color: #6aaddb;
+}
+.icon-user{
+    margin-left: 20px;
+}
+.icon-users{
+    width: 50px;
+    height: 50px;
+}
+.imgs{
+    text-align: center;
+    justify-content: center;
+    margin: 0 499px;
+}

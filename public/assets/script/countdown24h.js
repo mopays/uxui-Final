@@ -9,13 +9,13 @@ Swal.fire({
   title: "ลงทะเบียนด่วน!",
   text: "(เงื่อนไขเป็นไปตามกำหนด)",
   html: `<a href="register.html">คลิกที่นี่เพื่อลงทะเบียน</a>`,
-  imageUrl: "image/save50.png",
+  imageUrl: "assets/image/save50.png",
   imageWidth: 500,
   imageHeight: 300,
   html:``,
   backdrop: `
     rgba(255,255,255,0.75)
-    url("/images/nyan-cat.gif")
+    url("/assets/images/nyan-cat.gif")
     left top
     no-repeat
   `,
@@ -49,13 +49,13 @@ function updateCountdown() {
     title: "ลงทะเบียนด่วน!",
     text: "(เงื่อนไขเป็นไปตามกำหนด)",
     html: `<a href="register.html">คลิกที่นี่เพื่อลงทะเบียน</a>`,
-    imageUrl: "image/save50.png",
+    imageUrl: "assets/image/save50.png",
     imageWidth: 500,
     imageHeight: 300,
     html: `<div id="countdown">${hours} ชั่วโมง ${minutes} นาที ${seconds} วินาที</div>`,
     backdrop: `
       rgba(255,255,255,0.75)
-      url("/images/nyan-cat.gif")
+      url("/assets/images/nyan-cat.gif")
       left top
       no-repeat
     `,
