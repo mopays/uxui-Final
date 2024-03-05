@@ -7,6 +7,11 @@ body{
     font-family: "Trirong", serif;
 }
 
+header{
+    position: fixed;
+     width: 100%;
+     z-index: 999999;
+ }
 .cookie-consent{
     position: fixed;
     bottom: 10px;
