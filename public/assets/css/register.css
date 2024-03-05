@@ -58,27 +58,43 @@ body{
     color: white;
     background-image: linear-gradient(#5B0D5E,#FECAFF);    
 }
+
 input[type="email"]{
     background-color: #ffffff00;
     backdrop-filter: blur(40px);
     border: none;
     color: white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid rgba(255, 255, 255, 0.456);
+    border-right: 1px solid rgba(255, 255, 255, 0.456);
 }
 input[type=email]:focus {
     background-color: #ffffff00;
     backdrop-filter: blur(40px);
     border: none;
     color: white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid rgba(255, 255, 255, 0.456);
+    border-right: 1px solid rgba(255, 255, 255, 0.456);
+    border-top: 1px solid rgba(255, 255, 255, 0.456);
 }
 input[type="password"]{
     background-color: #ffffff00;
     backdrop-filter: blur(40px);
     border: none;
+    border-bottom: 1px solid white;
+    border-left: 1px solid rgba(255, 255, 255, 0.456);
+    border-right: 1px solid rgba(255, 255, 255, 0.456);
+
 }
 input[type=password]:focus {
     background-color: #ffffff00;
     backdrop-filter: blur(40px);
     border: none;
+    border-bottom: 1px solid white;
+    border-left: 1px solid rgba(255, 255, 255, 0.456);
+    border-right: 1px solid rgba(255, 255, 255, 0.456);
+    border-top: 1px solid rgba(255, 255, 255, 0.456);
 }
 
 input[type="email"]::placeholder{
