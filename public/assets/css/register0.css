@@ -8,6 +8,7 @@ body{
 .background-fade{
     width: 100%;
     background-color: #d4d4d471;
+    height: 100vh;
 }
 
 header{
