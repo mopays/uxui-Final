@@ -19,12 +19,14 @@ function checkPass() {
 		power.style.backgroundColor = colorPower[point];
 	
 		let result;
+		let style = "";
 		if (colorPower[point] == colorPower[0]) {
-			result = "รหัสมีความปลอดภัยต่ำ";
+			result = "<span style='color:white;'>ความยากของรหัสผ่าน: </span><span style='color: yellow;'>รหัสมีความปลอดภัยต่ำ</span>";
+			style = "color: red;";
 		} else if (colorPower[point] == colorPower[1] ) {
-			result = "รหัสมีความปลอดความปลอดภัยปานกลาง";
+			result = "<span style='color:white;'>ความยากของรหัสผ่าน: <span style='color: blue; '>รหัสมีความปลอดความปลอดภัยปานกลาง</span></span>";
 		} else {
-			result = "รหัสมีความปลอดภัยสูง";
+			result = "<span style='color:white;'>ความยากของรหัสผ่าน: <span style='color: #5dff12;'>รหัสมีความปลอดภัยสูง</span></span>";
 		}
 	
 		document.getElementById("result").innerHTML = result;
