@@ -1,10 +1,16 @@
+
+
 body{
+    font-family: "Trirong", serif;
     background-image: url("../image/NCSTIbg.png") ;
     background-repeat: no-repeat;
     background-size: cover; 
-    font-family: "Trirong", serif;
-    background-color: #000;
 }
+.background-fade{
+    width: 100%;
+    background-color: #d4d4d471;
+}
+
 
 .power-container { 
     background-color: #2E424D; 
@@ -39,6 +45,10 @@ body{
 .btn-sec{
     background-color: #dd3333;
     color: #fff;
+}
+.btn-sec:hover{
+    border: 1px solid #dd3333;
+    color: red;
 }
 .borders1{
     border-style: solid;
