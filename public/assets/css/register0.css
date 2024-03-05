@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover; 
     font-family: "Trirong", serif;
+    background-color: #000;
 }
 
 .power-container { 
@@ -58,7 +59,10 @@ body{
     border-image: radial-gradient(rgb(132,48,238), rgb(225,172,217)) 1;
     margin-top: 64px;
 }
-.colorhead{
-    font-size: 70px;
-    color: #fff;
+.colorhead {
+    font-size: 100px;
+    color: #000; 
+}
+.card {
+    border-radius: 50px; 
 }
