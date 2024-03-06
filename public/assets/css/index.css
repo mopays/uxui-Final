@@ -46,10 +46,70 @@ header{
     border: 1px solid green;
     background-color: green;
 }
+.btn{
+  margin: 20px;
+}
+.btn-register{
+  border: none;
+  background:linear-gradient(to left, #0989D1,#6109D1) ;
+  color: white;
+}
+.btn-register:hover{
+  background:linear-gradient(to right,#0989D1, #6109D1) ;
+}
+.btn-list-register{
+  background-image:linear-gradient(to left,#D109BD,#0989D1 ) ;
+  border: none;
+  color: white;
+}
+.btn-list-register:hover{
+  background:linear-gradient(to right,#D109BD, #0989D1) ;
+}
+.btn-send-document{
+  background-image:linear-gradient(to left,#D109BD ,#C5486D) ;
+  color: white;
+}
+.btn-send-document:hover{
+  background:linear-gradient(to right,#D109BD, #C5486D) ;
+}
+.containerss {
+  margin:20px 0px 0px 0px ;
+  text-align: left;
+  color: var(--color);
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  justify-self: center;
+  background-image: url("../image/cover1.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+/*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
 
+.containersss {
+  text-align: left;
+  color: var(--color);
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  justify-self: center;
+  background: #ffffff;
+  background-size:cover;
+  background-repeat: no-repeat;
+/*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
 
-
-
+.containerss h1, p{
+  color: white;
+}
 a:active {
     background-color: rgb(132,48,238);
     border-radius: 50px;
@@ -59,11 +119,10 @@ a:hover{
 }
 
 .containers {
-
   text-align: center;
   color: var(--color);
   width: 100%;
-  min-height: 50vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,6 +165,7 @@ a:hover{
   background-color: var(--color);
 }
 
+
 .second {
   background-image:url(https://images.unsplash.com/photo-1514496959998-c01c40915c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80) ;
   background-attachment: fixed;
@@ -116,8 +176,7 @@ a:hover{
 
 .second1 {
     background-image:url(https://images.unsplash.com/photo-1709377195497-b2723c8970a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
-    
-
+  
 }
 
 
@@ -169,6 +228,7 @@ padding: 10px;
 .img-third {
   background-image: url(https://images.unsplash.com/photo-1632853073412-782bf0279d65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
 }
+
 
 .second {
   flex-direction: row;
