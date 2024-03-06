@@ -19,6 +19,7 @@
 
 body {
   font-family: "Trirong", serif;
+  font-size: .6rem;
 }
 
 
@@ -157,6 +158,7 @@ li {
 
 .link-infomation {
   color: #ffffff;
+  font-size: 1rem;
 }
 
 .infomation h1 {
@@ -348,4 +350,16 @@ a:hover {
   align-items: center;
   border-radius: 50%;
   color: #000000;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(to left, #9255E2, #DF6EB6);
 }
