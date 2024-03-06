@@ -1,79 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
-:root{
-    --color: #333; 
-    }
+:root {
+  --color: #333;
+}
+
 /*15. ฟอน รีสตอร์ฟ เอฟเฟ็กต์(Von Restorff Effect)  */
-.font_stat{font-size:2.2rem; font-weight:bold;}
-.font_btn{font-size:1.3rem; font-weight:bold;}
+.font_stat {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.font_btn {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
 /*15. ฟอน รีสตอร์ฟ เอฟเฟ็กต์(Von Restorff Effect)  */
 
-body{
-    font-family: "Trirong", serif;
+body {
+  font-family: "Trirong", serif;
 }
 
 
-header{
-    position: fixed;
-    width: 100%;
-    z-index: 999999;
- }
-.cookie-consent{
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 260px;
-    padding-top: 7px;
-    height: 83px;
-    color: #fff;
-    line-height: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 14px;
-    background: #292929;
-    z-index: 1030;
-    cursor: pointer;
-    border-radius: 3px;
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
 }
 
-.allow-button{
-    height: 20px;
-    width: 104px;
-    color: #fff;
-    font-size: 12px;
-    line-height: 10px;
-    border-radius: 3px;
-    border: 1px solid green;
-    background-color: green;
+.cookie-consent {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 260px;
+  padding-top: 7px;
+  height: 83px;
+  color: #fff;
+  line-height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  background: #292929;
+  z-index: 1030;
+  cursor: pointer;
+  border-radius: 3px;
 }
-.btn{
+
+.allow-button {
+  height: 20px;
+  width: 104px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 10px;
+  border-radius: 3px;
+  border: 1px solid green;
+  background-color: green;
+}
+
+.btn {
   margin: 20px;
 }
-.btn-register{
+
+.btn-register {
   border: none;
-  background:linear-gradient(to left, #0989D1,#6109D1) ;
+  background: linear-gradient(to left, #0989D1, #6109D1);
   color: white;
 }
-.btn-register:hover{
-  background:linear-gradient(to right,#0989D1, #6109D1) ;
+
+.btn-register:hover {
+  background: linear-gradient(to right, #0989D1, #6109D1);
 }
-.btn-list-register{
-  background-image:linear-gradient(to left,#D109BD,#0989D1 ) ;
+
+.btn-list-register {
+  background-image: linear-gradient(to left, #D109BD, #0989D1);
   border: none;
   color: white;
 }
-.btn-list-register:hover{
-  background:linear-gradient(to right,#D109BD, #0989D1) ;
+
+.btn-list-register:hover {
+  background: linear-gradient(to right, #D109BD, #0989D1);
 }
-.btn-send-document{
-  background-image:linear-gradient(to left,#D109BD ,#C5486D) ;
+
+.btn-send-document {
+  background-image: linear-gradient(to left, #D109BD, #C5486D);
   color: white;
 }
-.btn-send-document:hover{
-  background:linear-gradient(to right,#D109BD, #C5486D) ;
+
+.btn-send-document:hover {
+  background: linear-gradient(to right, #D109BD, #C5486D);
 }
+
 .containerss {
-  margin:20px 0px 0px 0px ;
+  margin: 20px 0px 0px 0px;
   text-align: left;
   color: var(--color);
   width: 100%;
@@ -84,12 +102,13 @@ header{
   justify-content: center;
   justify-self: center;
   background-image: url("../image/cover1.png");
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
-/*  this is where the magic happens:  */
+  /*  this is where the magic happens:  */
   background-attachment: fixed;
 }
-.container-infomation{
+
+.container-infomation {
   text-align: left;
   color: var(--color);
   width: 100%;
@@ -100,11 +119,12 @@ header{
   justify-content: center;
   justify-self: center;
   background-image: url("../image/image-12.png");
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
-/*  this is where the magic happens:  */
+  /*  this is where the magic happens:  */
   background-attachment: fixed;
 }
+
 .containersss {
   text-align: left;
   color: var(--color);
@@ -116,12 +136,13 @@ header{
   justify-content: center;
   justify-self: center;
   background: #ffffff;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
-/*  this is where the magic happens:  */
+  /*  this is where the magic happens:  */
   background-attachment: fixed;
 }
-.infomation{
+
+.infomation {
   background-color: #00000085;
   color: #000000;
   margin: 0 auto;
@@ -129,25 +150,31 @@ header{
   height: 45vh;
   padding: 20px;
 }
-li{
+
+li {
   color: white;
 }
-.link-infomation{
+
+.link-infomation {
   color: #ffffff;
 }
-.infomation h1{
+
+.infomation h1 {
   text-align: center;
   color: white;
 }
-.containerss h1, p{
+
+.containerss h1, p {
   color: white;
 }
+
 a:active {
-    background-color: rgb(132,48,238);
-    border-radius: 50px;
+  background-color: rgb(132, 48, 238);
+  border-radius: 50px;
 }
-a:hover{
-    text-decoration: none;
+
+a:hover {
+  text-decoration: none;
 }
 
 .containers {
@@ -159,10 +186,10 @@ a:hover{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../image/adv1.jpg") ;
+  background-image: url("../image/adv1.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-/*  this is where the magic happens:  */
+  /*  this is where the magic happens:  */
   background-attachment: fixed;
 }
 
@@ -194,12 +221,12 @@ a:hover{
 .other {
   width: 100%;
   min-height: 3vh;
-  background:linear-gradient(to bottom,#9747FF ,#DF6EB6);
+  background: linear-gradient(to bottom, #9747FF, #DF6EB6);
 }
 
 
 .second {
-  background-image:url(https://images.unsplash.com/photo-1514496959998-c01c40915c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80) ;
+  background-image: url(https://images.unsplash.com/photo-1514496959998-c01c40915c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
   background-attachment: fixed;
   width: 100%;
   height: fit-content;
@@ -207,8 +234,8 @@ a:hover{
 }
 
 .second1 {
-    background-image:url(https://images.unsplash.com/photo-1709377195497-b2723c8970a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
-  
+  background-image: url(https://images.unsplash.com/photo-1709377195497-b2723c8970a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
 }
 
 
@@ -218,35 +245,37 @@ a:hover{
   margin-top: 1em;
 }
 
-.cards > a {
+.cards>a {
   margin-bottom: 2em;
 }
 
 .item {
-padding: 10px;
+  padding: 10px;
   display: flex;
   width: 300px;
   height: 320px;
   max-height: 320px;
   max-width: 320px;
-  background-color: white;;
+  background-color: white;
+  ;
   flex-direction: column;
   align-items: center;
   border-radius: .5em;
-  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
-  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
-  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
   color: #000000;
 }
 
 .img {
-  width:100%;
+  width: 100%;
   height: 70%;
   background-color: lightgrey;
   background-size: cover;
   background-position: center;
   margin-top: 20px;
-  border-radius: .3em;;
+  border-radius: .3em;
+  ;
 }
 
 .img-first {
@@ -271,50 +300,52 @@ padding: 10px;
 
 
 .img-firsts {
-    background-image: url('../image/edit.png');
-    background-size: cover;
-    background-size: 50%;
-    background-repeat: no-repeat;
-  }
+  background-image: url('../image/edit.png');
+  background-size: cover;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
 
 .img-seconds {
-    background-image: url('../image/document.png');
-    background-size: cover;
-    background-size: 50%;
-    background-repeat: no-repeat;
+  background-image: url('../image/document.png');
+  background-size: cover;
+  background-size: 50%;
+  background-repeat: no-repeat;
 }
 
 .img-thirds {
-    background-image: url('../image/communication.png');
-    background-size: cover;
-    background-size: 50%;
-    background-repeat: no-repeat;
+  background-image: url('../image/communication.png');
+  background-size: cover;
+  background-size: 50%;
+  background-repeat: no-repeat;
 }
+
 .img-floats {
-    background-image: url('../image/poster1.png');
-    background-size: cover;
-    background-size: 10%;
-    background-repeat: no-repeat;
+  background-image: url('../image/poster1.png');
+  background-size: cover;
+  background-size: 10%;
+  background-repeat: no-repeat;
 }
+
 .imgs {
-    width:25%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    margin-top: 125px;
-    border-radius: .3em;
-    background-size: cover;
-  }
+  width: 25%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 125px;
+  border-radius: .3em;
+  background-size: cover;
+}
+
 .items {
-      display: flex;
-      width: 300px;
-      height: 320px;
-      max-height: 320px;
-      max-width: 320px;
- 
-      flex-direction: column;
-      align-items: center;
-      border-radius: 50%;
-      color: #000000;
-    }
-    
+  display: flex;
+  width: 300px;
+  height: 320px;
+  max-height: 320px;
+  max-width: 320px;
+
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  color: #000000;
+}

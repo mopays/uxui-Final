@@ -1,6 +1,6 @@
-$(document).ready(function(){
-    $('[id^=button]').click(function(){
-        $("#cookieConsent").hide();
+$(document).ready(function () {
+  $('[id^=button]').click(function () {
+    $("#cookieConsent").hide();
   });
 });
 
@@ -12,7 +12,7 @@ Swal.fire({
   imageUrl: "assets/image/save50.png",
   imageWidth: 500,
   imageHeight: 300,
-  html:``,
+  html: ``,
   backdrop: `
     rgba(255,255,255,0.75)
     url("/assets/images/nyan-cat.gif")
@@ -26,7 +26,7 @@ Swal.fire({
   confirmButtonText: "ลงทะเบียนทันที"
 }).then((result) => {
   if (result.isConfirmed) {
-    window.location.href='register.html';
+    window.location.href = 'register.html';
   }
 });
 
