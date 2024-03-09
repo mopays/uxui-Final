@@ -91,7 +91,29 @@ header {
 .btn-send-document:hover {
   background: linear-gradient(to right, #D109BD, #C5486D);
 }
+.containerss-registration{
+  margin: 10px 0px 0px 0px;
+  text-align: left;
+  color: var(--color);
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  justify-self: center;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
 
+.containerss-registration img{
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
 .containerss {
   margin: 20px 0px 0px 0px;
   text-align: left;
@@ -362,6 +384,8 @@ a:hover {
 }
 .infomation-sesstion5 .texts-left{
   padding: 30px;
+  background-color: #EDBDF2;
+  border-radius: 30px;
 }
 .infomation-sesstion5 .texts-left .flex-btn {
   border: none;
@@ -382,6 +406,7 @@ a:hover {
   height: 0;
   width: 0;
   left: -1em;
+
   position: relative;
 }
 
@@ -399,6 +424,7 @@ a:hover {
 }
 
 .footer {
+  font-size: 1rem;
   text-align: center;
   margin-top: 20px;
   padding: 10px;
@@ -406,10 +432,13 @@ a:hover {
   left: 0;
   right: 0;
   width: 100%;
-  height: 40px;
+  height:240px;
   background: linear-gradient(to left, #9255E2, #DF6EB6);
 }
 
+.footer-header{
+  font-size: 1.8rem;
+}
 @media screen and(min-width: 600px) {
     .btn{
       font-size: .7rem;
