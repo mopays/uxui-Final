@@ -60,6 +60,7 @@ header {
 
 .btn {
   margin: 20px;
+ 
 }
 
 .btn-register {
@@ -136,7 +137,7 @@ header {
   align-items: baseline;
   justify-content: center;
   justify-self: center;
-  background: #ffffff;
+  background: #ffffff71;
   background-size: cover;
   background-repeat: no-repeat;
   /*  this is where the magic happens:  */
@@ -338,6 +339,51 @@ a:hover {
   border-radius: .3em;
   background-size: cover;
 }
+.container-infomation-session5{
+  text-align: left;
+  color: var(--color);
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  justify-self: center;
+  background-color:white;
+  background-repeat: no-repeat;
+  /*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
+.infomation-sesstion5{
+  color: #000000;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+.infomation-sesstion5 .texts-left{
+  padding: 30px;
+}
+.infomation-sesstion5 .texts-left .flex-btn {
+  border: none;
+}
+.infomation-sesstion5 .flex-btn ul li{
+  color:#000000;
+  font-size: 1rem;
+}
+.infomation-sesstion5 .flex-btn ul {
+  list-style: none;
+}
+.infomation-sesstion5 .flex-btn li::before { 
+  content: "";
+  border-color: transparent #111;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: inline-flex;
+  height: 0;
+  width: 0;
+  left: -1em;
+  position: relative;
+}
 
 .items {
   display: flex;
@@ -362,4 +408,27 @@ a:hover {
   width: 100%;
   height: 40px;
   background: linear-gradient(to left, #9255E2, #DF6EB6);
+}
+
+@media screen and(min-width: 600px) {
+    .btn{
+      font-size: .7rem;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
 }
